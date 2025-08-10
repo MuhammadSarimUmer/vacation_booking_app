@@ -1,13 +1,16 @@
 final List<Map<String, dynamic>> travelPlaces = [
   {
     "name": "Manarola, Italy",
-    "cardImage": "assets/images/manarola_card.jpg", // Card
-    "detailImage": "assets/images/manarola_details.jpg", // Detail
+    "cardImage": "assets/images/manarola_card.jpg",
+    "detailImage": "assets/images/manarola_details.jpg",
     "rating": 4.5,
     "cost": 770,
     "city": "Manarola",
     "country": "Italy",
     "Type": "Mountain",
+    "aboutTrip":
+        "Manarola has its own train station and can be reached from either La Spezia or Levanto. From La Spezia, take the local train (treno regionale) in the direction of Sestri Levante and get off at the first stop. From Levanto, take the regional train in the direction of La Spezia Centrale.",
+    "countryCode": "IT",
   },
   {
     "name": "Zermatt, Switzerland",
@@ -18,6 +21,9 @@ final List<Map<String, dynamic>> travelPlaces = [
     "city": "Zermatt",
     "country": "Switzerland",
     "Type": "Mountain",
+    "aboutTrip":
+        "Zermatt is a car-free resort town at the foot of the iconic Matterhorn peak. Accessible only by train from Täsch, this alpine paradise offers world-class skiing in winter and exceptional hiking trails in summer. The town perfectly blends traditional Swiss charm with modern luxury amenities.",
+    "countryCode": "CH",
   },
   {
     "name": "Santorini, Greece",
@@ -28,6 +34,9 @@ final List<Map<String, dynamic>> travelPlaces = [
     "city": "Santorini",
     "country": "Greece",
     "Type": "Forest",
+    "aboutTrip":
+        "Santorini is famous for its dramatic cliffs, stunning sunsets, and distinctive blue-domed churches. This volcanic island offers unique black sand beaches, world-renowned wines, and charming villages perched on clifftops. The caldera views from Oia and Fira are absolutely breathtaking.",
+    "countryCode": "GR",
   },
   {
     "name": "Kyoto, Japan",
@@ -38,6 +47,9 @@ final List<Map<String, dynamic>> travelPlaces = [
     "city": "Kyoto",
     "country": "Japan",
     "Type": "Forest",
+    "aboutTrip":
+        "Kyoto is Japan's cultural heart, home to over 2,000 temples and shrines, traditional wooden houses, and beautiful gardens. Experience authentic Japanese culture through tea ceremonies, geisha districts, and seasonal festivals. The bamboo groves of Arashiyama and golden Kinkaku-ji temple are must-visit attractions.",
+    "countryCode": "JP",
   },
   {
     "name": "Cappadocia, Turkey",
@@ -48,6 +60,9 @@ final List<Map<String, dynamic>> travelPlaces = [
     "city": "Cappadocia",
     "country": "Turkey",
     "Type": "Mountain",
+    "aboutTrip":
+        "Cappadocia is renowned for its otherworldly landscape of fairy chimneys, underground cities, and cave dwellings. Take a magical hot air balloon ride at sunrise over the unique rock formations. Explore ancient churches carved into rocks and stay in authentic cave hotels for an unforgettable experience.",
+    "countryCode": "TR",
   },
   {
     "name": "Bali, Indonesia",
@@ -58,5 +73,8 @@ final List<Map<String, dynamic>> travelPlaces = [
     "city": "Bali",
     "country": "Indonesia",
     "Type": "Desert",
+    "aboutTrip":
+        "Bali offers a perfect blend of spiritual culture, stunning beaches, and lush rice terraces. Discover ancient temples, enjoy world-class surfing, and experience traditional Balinese hospitality. From the artistic hub of Ubud to the beach clubs of Seminyak, Bali caters to every type of traveler.",
+    "countryCode": "ID",
   },
 ];
