@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vaca_app/details_page.dart';
+import 'package:vaca_app/global_variables.dart';
 import 'package:vaca_app/homescreen.dart';
 
 void main() {
@@ -273,7 +274,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: const DetailsPage(),
+      home: Homescreen(),
       debugShowCheckedModeBanner: false,
     );
   }
