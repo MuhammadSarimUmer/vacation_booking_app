@@ -1,16 +1,31 @@
-# vaca_app
+# 🌍 Vaca Travel App
 
-A new Flutter project.
+A beautiful Flutter application for discovering and booking amazing travel destinations around the world. Explore stunning locations, check real-time weather conditions, and manage your travel bookings with ease.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+### 🏠 **Home Screen**
+- Beautiful hero section with travel inspiration
+- Category filtering (All, Mountain, Forest, Desert)
+- Interactive filter chips with smooth animations
+- Quick access to bookings and messages
 
-A few resources to get you started if this is your first Flutter project:
+### 🗺️ **Destination Details**
+- Stunning full-screen destination images
+- Real-time weather information powered by OpenWeatherMap API
+- Detailed trip descriptions and ratings
+- Package pricing with attractive visual design
+- One-tap booking functionality
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🛒 **Smart Booking System**
+- Provider-based state management for seamless cart operations
+- Add destinations to your booking list
+- Remove bookings with confirmation dialogs
+- Real-time updates across all screens
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🌦️ **Weather Integration**
+- Live weather data for each destination
+- Weather-appropriate icons (sunny, cloudy, rainy, etc.)
+- Temperature display in Celsius
+- Current date formatting
+## 📱 Screenshots are in the git repo
