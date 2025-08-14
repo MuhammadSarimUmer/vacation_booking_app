@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vaca_app/details_page.dart';
+import 'package:vaca_app/pages/details_page.dart';
 import 'package:vaca_app/global_variables.dart';
 
 class PlacesCard extends StatefulWidget {
