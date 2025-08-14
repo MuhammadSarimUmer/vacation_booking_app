@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vaca_app/cart_page.dart';
 import 'package:vaca_app/global_variables.dart';
 import 'package:vaca_app/places_card.dart';
 
@@ -55,9 +56,9 @@ class _HomescreenState extends State<Homescreen> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: Icon(
-                                Icons.messenger_outline_sharp,
-                                size: 25,
+                              child: IconButton(
+                                onPressed: () {},
+                                icon: Icon(Icons.messenger),
                               ),
                             ),
                           ),
@@ -71,9 +72,15 @@ class _HomescreenState extends State<Homescreen> {
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(8.0),
-                              child: Icon(
-                                Icons.verified_user_outlined,
-                                size: 25,
+                              child: IconButton(
+                                onPressed: () {
+                                  Navigator.of(context).push(
+                                    MaterialPageRoute(
+                                      builder: (context) => CartPage(),
+                                    ),
+                                  );
+                                },
+                                icon: Icon(Icons.airplanemode_active),
                               ),
                             ),
                           ),

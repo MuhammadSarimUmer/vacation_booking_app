@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
+import 'package:provider/provider.dart';
+import 'package:vaca_app/cartprovider.dart';
 import 'package:vaca_app/secrets.dart';
 
 class DetailsPage extends StatefulWidget {
@@ -247,7 +249,29 @@ class _DetailsPageState extends State<DetailsPage> {
                                 width: double.infinity,
                                 height: 50,
                                 child: ElevatedButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Provider.of<Cartprovider>(
+                                      context,
+                                      listen: false,
+                                    ).addTravelPlace(widget.travelPlace);
+
+                                    showDialog(
+                                      context: context,
+                                      builder: (context) => AlertDialog(
+                                        title: Text('Booking Successful'),
+                                        content: Text(
+                                          'Your booking has been added to the cart.',
+                                        ),
+                                        actions: [
+                                          TextButton(
+                                            onPressed: () =>
+                                                Navigator.of(context).pop(),
+                                            child: Text('OK'),
+                                          ),
+                                        ],
+                                      ),
+                                    );
+                                  },
                                   style: ElevatedButton.styleFrom(
                                     backgroundColor: Colors.blue.shade600,
                                     foregroundColor: Colors.white,
